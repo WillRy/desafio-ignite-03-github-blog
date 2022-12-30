@@ -25,7 +25,7 @@ export function BlogContextProvider({ children }: BlogContextProviderProps) {
     const fetchPosts = useCallback(async (query: string = '') => {
         const url = "https://api.github.com/search/issues";
         const profile = "willry";
-        const repo = "blog-issues-desafio";
+        const repo = "desafio-ignite-03-github-blog";
 
         const { data } = await axios.get(url, {
             params: {

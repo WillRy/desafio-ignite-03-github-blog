@@ -31,7 +31,7 @@ export function PostPage() {
 
     const fetchPost = useCallback(async () => {
         const profile = "willry";
-        const repo = "blog-issues-desafio";
+        const repo = "desafio-ignite-03-github-blog";
 
         const url = `https://api.github.com/repos/${profile}/${repo}/issues/${number}`;
 
